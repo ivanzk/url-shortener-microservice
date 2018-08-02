@@ -1,0 +1,47 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>URL Shortener Microservice</title>
+    <meta name="description" content="freeCodeCamp: Apis and Microservices Projects - URL Shortener Microservice">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        URL Shortener Microservice
+      </h1>
+      <p>
+        freeCodeCamp: Apis and Microservices Projects - URL Shortener Microservice
+      </p>
+    </header>
+
+    <main>
+      <form action="/api/shorturl/new" method="post">
+        <label for="url">URL to be shortened</label>
+        <input id="url" type="text" name="url" placeholder="https://www.google.com">
+        <button type="submit">
+          Post URL
+        </button>
+      </form>
+    </main>
+
+  </body>
+</html>

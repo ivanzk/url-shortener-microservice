@@ -1,0 +1,25 @@
+{
+  "name": "izk-url-shortener-microservice",
+  "version": "0.0.1",
+  "description": "freeCodeCamp: Apis and Microservices Projects - URL Shortener Microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "body-parser": "^1.18.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/izk-url-shortener-microservice"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
